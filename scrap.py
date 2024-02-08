@@ -5,7 +5,6 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
-import modules.auth
 import random 
 import itertools
 
@@ -25,7 +24,21 @@ driver.implicitly_wait(10)
 
 # https://www.tripadvisor.ru/Attraction_Review-g665309-d2602487-Reviews-Russian_State_Drama_Theater_Named_After_Pushkin-Yakutsk_Sakha_Yakutia_Republic_Fa.html
 
-url = "https://www.tripadvisor.ru/Attraction_Review-g298493-d6493789-Reviews-Khram_Prepodobnogo_Serafima_Sarovskogo-Khabarovsk_Khabarovsk_Krai_Far_Eastern_Dis.html"
+# https://www.tripadvisor.ru/Attraction_Review-g298493-d6493789-Reviews-Khram_Prepodobnogo_Serafima_Sarovskogo-Khabarovsk_Khabarovsk_Krai_Far_Eastern_Dis.html
+
+# https://www.tripadvisor.ru/Attraction_Review-g1207890-d7291097-Reviews-Cathedral_of_the_Holy_Prophet_Elijah-Komsomolsk_on_Amur_Khabarovsk_Krai_Far_East.html
+
+# https://www.tripadvisor.ru/Attraction_Review-g662364-d2588114-Reviews-Buryat_State_Academic_Opera_and_Ballet_Theater-Ulan_Ude_Republic_of_Buryatia_Sibe.html
+
+# https://www.tripadvisor.ru/Attraction_Review-g298515-d305011-Reviews-Chkalov_Monument-Nizhny_Novgorod_Nizhny_Novgorod_Oblast_Volga_District.html
+
+# https://www.tripadvisor.ru/Attraction_Review-g298490-d6396341-Reviews-Amur_River_Embankment-Blagoveshchensk_Amur_Oblast_Far_Eastern_District.html
+
+# https://www.tripadvisor.ru/Attraction_Review-g298496-d3659963-Reviews-Botanical_Garden_Institute-Vladivostok_Primorsky_Krai_Far_Eastern_District.html
+
+# https://www.tripadvisor.ru/Attraction_Review-g298493-d8735225-Reviews-N_P_Zadornov_Monument-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html
+
+url = "https://www.tripadvisor.ru/Attraction_Review-g298484-d8390953-Reviews-Monument_to_Valentina_Grizodubova-Moscow_Central_Russia.html"
 driver.get(url)
 reviews = []
 
