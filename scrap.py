@@ -23,9 +23,9 @@ driver.implicitly_wait(10)
 
 # https://www.tripadvisor.ru/Attraction_Review-g665309-d2601885-Reviews-National_Art_Museum_of_The_Republic_of_Sakha_Yakutia-Yakutsk_Sakha_Yakutia_Republ.html
 
-https://www.tripadvisor.ru/Attraction_Review-g665309-d2602487-Reviews-Russian_State_Drama_Theater_Named_After_Pushkin-Yakutsk_Sakha_Yakutia_Republic_Fa.html
+# https://www.tripadvisor.ru/Attraction_Review-g665309-d2602487-Reviews-Russian_State_Drama_Theater_Named_After_Pushkin-Yakutsk_Sakha_Yakutia_Republic_Fa.html
 
-url = "https://www.tripadvisor.ru/Attraction_Review-g665309-d2602487-Reviews-Russian_State_Drama_Theater_Named_After_Pushkin-Yakutsk_Sakha_Yakutia_Republic_Fa.html"
+url = "https://www.tripadvisor.ru/Attraction_Review-g298493-d6493789-Reviews-Khram_Prepodobnogo_Serafima_Sarovskogo-Khabarovsk_Khabarovsk_Krai_Far_Eastern_Dis.html"
 driver.get(url)
 reviews = []
 
